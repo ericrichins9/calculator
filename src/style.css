@@ -1,0 +1,49 @@
+
+
+#pad{
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    margin: auto;
+     border: solid #0066A2 2px;
+    border-radius: 9px;
+    /* justify-content: space-around; */
+}
+
+.button{
+    /* background-color:blue; */
+    /* color: white; */
+    /* border-radius: 12px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 22px;
+    /* margin: 4px; */
+}
+
+[type="number"]{
+    background: white;
+    color: #0066A2;
+    border-style: outset;
+    border-color: white;
+    height: 35px;
+    width: 35px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+    border-radius: 6px;
+}
+
+.button:not([type="number"]){
+    background-color: gray;
+}
+
+.header{
+    justify-content: center;
+}
+
+#calculations{
+    background-color: lightblue;
+    border-radius: 4px;
+    /* margin-bottom: 20px; */
+    padding: 10px;
+    width: 100%;
+}
